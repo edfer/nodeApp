@@ -19,14 +19,24 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-    const firstName =req.body.firstName;
-    const user = new User({
-        firstName: firstName
+
+    const user = new User(req.body);
+
+    user.save(function(err, userCreated) {
+        if (err) {
+            //res.json({success: false, error: err});
+            next(err);
+            return;
+        }
+        res.render('index', {firstName: userCreated.firstName});
+
     });
 
-    user.save();
-    res.redirect('/');
 });
+
+
+
+
 
 module.exports = router;
 

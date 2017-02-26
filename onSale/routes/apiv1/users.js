@@ -37,4 +37,25 @@ router.post('/', function(req, res, next) {
     });
 });
 
+router.put('/:id', function(req, res, next) {
+    const id = req.params.id;
+    const user = req.body;
+    User.update({_id:id}, user, function(err) {
+        if (err) {
+            return next(err);
+        }
+        res.json({success: true});
+    })
+});
+
+router.delete('/:id', function(req, res, next){
+    const id = req.params.id;
+    User.remove({_id: id}, function(err){
+        if (err) {
+            return next(err);
+        }
+        res.json({success: true});
+    });
+});
+
 module.exports = router;
