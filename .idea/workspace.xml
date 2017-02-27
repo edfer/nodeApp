@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71b3fe08-5600-4305-84e8-379aace5d033" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onSale/models/User.js" afterPath="$PROJECT_DIR$/onSale/models/User.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onSale/routes/apiv1/users.js" afterPath="$PROJECT_DIR$/onSale/routes/apiv1/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onSale/routes/index.js" afterPath="$PROJECT_DIR$/onSale/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onSale/views/index.ejs" afterPath="$PROJECT_DIR$/onSale/views/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,18 +24,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onSale/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onSale/routes/apiv1/users.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
-              <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+              <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -75,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onSale/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="536">
@@ -98,8 +84,18 @@
       <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onSale/models/User.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/onSale/routes/apiv1/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -139,10 +135,10 @@
         <option value="$PROJECT_DIR$/onSale/lib/mongooseConnect.js" />
         <option value="$PROJECT_DIR$/onSale/app.js" />
         <option value="$PROJECT_DIR$/onSale/bin/www" />
-        <option value="$PROJECT_DIR$/onSale/models/User.js" />
         <option value="$PROJECT_DIR$/onSale/views/index.ejs" />
         <option value="$PROJECT_DIR$/onSale/routes/index.js" />
         <option value="$PROJECT_DIR$/onSale/routes/apiv1/users.js" />
+        <option value="$PROJECT_DIR$/onSale/models/User.js" />
       </list>
     </option>
   </component>
@@ -162,7 +158,7 @@
     <handled-path value="$PROJECT_DIR$/onSale/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="405" />
+    <option name="x" value="404" />
     <option name="y" value="42" />
     <option name="width" value="1399" />
     <option name="height" value="1000" />
@@ -463,15 +459,15 @@
       <option name="presentableId" value="Default" />
       <updated>1487717118237</updated>
       <workItem from="1487717119475" duration="30228000" />
-      <workItem from="1488134182502" duration="5342000" />
+      <workItem from="1488134182502" duration="11091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35570000" />
+    <option name="totallyTimeSpent" value="41319000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="405" y="42" width="1399" height="1000" extended-state="0" />
+    <frame x="404" y="42" width="1399" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963716" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -519,14 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onSale/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onSale/views/error.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -551,14 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onSale/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onSale/lib/mongooseConnect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -575,18 +555,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onSale/routes/apiv1/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onSale/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onSale/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onSale/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onSale/routes/apiv1/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding />
         </state>
       </provider>

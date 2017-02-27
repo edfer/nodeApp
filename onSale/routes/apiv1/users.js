@@ -3,12 +3,26 @@
 const express = require('express');
 const router = express.Router();
 // const message = require('../../models/Message');
-const User = require('../../models/User');
+// const User = require('../../models/User');
+const mongoose = require('mongoose');
+const User = mongoose.model('User');
 
 
 router.get('/', function (req, res, next) {
 
-    User.find().exec( function(err, docs) {
+    const firstName = req.query.firstName;
+    const limit = parseInt(req.query.limit);
+    const skip = parseInt(req.query.skip);
+    const fields = req.query.fields;
+    const sort = req.query.sort;
+
+    const filter = {};
+
+    if (firstName) {
+        filter.firstName = firstName;
+    }
+
+    User.info(filter, limit, skip, fields, sort, function(err, docs) {
         if (err) {
             next(err);
             return;

@@ -1,10 +1,10 @@
 "use strict";
 
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
-var mongooseUniqueValidator = require('mongoose-unique-validator');
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const mongooseUniqueValidator = require('mongoose-unique-validator');
 
-var userSchema = new Schema({
+const userSchema = new Schema({
     firstName: {type: String, required: true},
     lastName: {type: String},
     password: {type:String},
@@ -13,6 +13,17 @@ var userSchema = new Schema({
 
 });
 
+userSchema.statics.info = function(filter, limit, skip, fields, sort, cb) {
+    const query = User.find(filter);
+    query.limit(limit);
+    query.skip(skip);
+    query.select(fields);
+    query.sort(sort);
+    query.exec(cb);
+};
+
 userSchema.plugin(mongooseUniqueValidator);
 
-module.exports = mongoose.model('User', userSchema);
+const User = mongoose.model('User', userSchema);
+
+//module.exports = User;
