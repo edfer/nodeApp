@@ -2,8 +2,8 @@
 const express = require('express');
 const router = express.Router();
 const User = require('../models/User');
-
 // const mongoose =require('mongoose');
+// const User = mongoose.model('User');
 
 
 // GET users listing.
@@ -16,6 +16,7 @@ router.get('/', function(req, res, next) {
 
         res.render('index', {firstName: docs.firstName});
     });
+     // res.render('index');
 });
 
 router.post('/', function(req, res, next) {
@@ -28,8 +29,9 @@ router.post('/', function(req, res, next) {
             next(err);
             return;
         }
-        res.render('index', {firstName: userCreated.firstName});
-
+        // res.render('index', {firstName: userCreated.firstName});
+        console.log(userCreated);
+        return;
     });
 
 });
